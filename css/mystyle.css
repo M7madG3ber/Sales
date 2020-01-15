@@ -1,0 +1,51 @@
+/* * {
+  font-family: cairo;
+} */
+
+*:not(i) {
+  font-family: cairo !important;
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+  text-align: right;
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .caret {
+  right: auto;
+  left: 12px;
+}
+
+#addBillPurchaseIcon,
+#addBillSaleIcon {
+  font-size: 20px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+
+select {
+  border: none;
+  width: 100%;
+  margin: 0;
+  padding-top: 2px !important;
+}
+
+#alertQuantity,#alertPrice {
+  display: none;
+}
+#alertQuantity h3,#alertPrice h3 {
+  text-align: right;
+  font-size: 20px;
+  background: #f44336;
+  color: white;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+}
+
+.form-group .form-line:after {
+  border-bottom-color: #F44336 !important;
+}
+
+[type="checkbox"].filled-in:checked+label:after {
+  border: 2px solid #F44336 !important;
+  background-color: #F44336 !important;
+}
